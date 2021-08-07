@@ -1,0 +1,62 @@
+/*Configuración de la página*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: #0E6655;
+    text-align: left;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+footer{
+    background: #0E6655;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+#menu{
+    background-color: #eee;
+}
+
+#menu ul li{
+    display: block;
+    float: left;
+    border-right: 2px solid #ccc;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover{
+    background: #73C6B6;
+    cursor: pointer;
+}
+
+menu ul li:hover a{
+    color: white;
+}
+
+#contenido table{
+    margin: auto;
+}
+
+#principal{
+    margin-left: 20%;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
+}
