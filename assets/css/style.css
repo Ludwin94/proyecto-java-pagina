@@ -99,6 +99,24 @@ a{
     column-gap: 40px;
 }
 
+#bk{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+#ft{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-style: solid;
+}
+
 #parrafoP{
     text-align: justify;
     column-count: 2;
